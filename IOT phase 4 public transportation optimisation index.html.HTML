@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transportation Optimization</title>
+</head>
+<body>
+    <h1>Transportation Optimization Program</h1>
+    <p>Upload your data file:</p>
+    <input type="file" id="dataFile">
+    <button onclick="optimizeTransportation()">Optimize</button>
+
+    <div id="output">
+        <!-- The optimization results will be displayed here -->
+    </div>
+
+    <script>
+        function optimizeTransportation() {
+            // JavaScript logic to handle optimization
+            // You can use JavaScript to perform the same data processing and optimization as in your Python code.
+
+            // Example:
+            // 1. Fetch data from the uploaded file
+            // 2. Implement the transport_plan function with the provided data
+            // 3. Display the results in the 'output' div
+
+            const dataFile = document.getElementById('dataFile');
+            const outputDiv = document.getElementById('output');
+
+            // Here you can use JavaScript to read and process the data from the uploaded file.
+
+            // Example:
+            // const file = dataFile.files[0];
+            // const reader = new FileReader();
+            // reader.onload = function(e) {
+            //     const data = e.target.result;
+            //     // Call your transport_plan function here and display the results.
+            // };
+            // reader.readAsText(file);
+
+            // Display results in the 'output' div.
+            outputDiv.innerHTML = "Optimization results will be displayed here.";
+        }
+    </script>
+</body>
+</html>
